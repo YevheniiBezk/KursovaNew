@@ -193,7 +193,7 @@
             this.firstNameLabel.Name = "firstNameLabel";
             this.firstNameLabel.Size = new System.Drawing.Size(26, 13);
             this.firstNameLabel.TabIndex = 29;
-            this.firstNameLabel.Text = "Ім'я";
+            this.firstNameLabel.Text = "Ім\'я";
             // 
             // criminalProfessionTextBox
             // 
@@ -306,7 +306,7 @@
             this.archiveButton.Name = "archiveButton";
             this.archiveButton.Size = new System.Drawing.Size(142, 37);
             this.archiveButton.TabIndex = 52;
-            this.archiveButton.Text = "Архів";
+            this.archiveButton.Text = "Додати в Архів";
             this.archiveButton.UseVisualStyleBackColor = true;
             this.archiveButton.Click += new System.EventHandler(this.archiveButton_Click);
             // 
