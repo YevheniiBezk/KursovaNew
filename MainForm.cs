@@ -237,8 +237,74 @@ namespace KursovaOOP
                     LastKnownAddress = "Пасео-де-Грасія, 34, Барселона",
                     CriminalProfession = "Контрабандист наркотиків",
                     HairColor = "Чорне"
-},
+                    },
+                new CrimeRecord {
+                    FirstName = "Іван",
+                    LastName = "Смирнов",
+                    Nickname = "Ведмідь",
+                    Height = 190,
+                    EyeColor = "Блакитні",
+                    Nationality = "Росіянин",
+                    BirthDate = new DateTime(1985, 4, 16),
+                    BirthPlace = "Москва, Росія",
+                    LastKnownAddress = "Тверська вулиця, 7, Москва",
+                    CriminalProfession = "Озброєний грабіжник",
+                    HairColor = "Темно-каштанове"
+                    },
+                new CrimeRecord {
+                    FirstName = "Лі",
+                    LastName = "Чжун",
+                    Nickname = "Дракон",
+                    Height = 178,
+                    EyeColor = "Чорні",
+                    Nationality = "Китаєць",
+                    BirthDate = new DateTime(1990, 2, 10),
+                    BirthPlace = "Шанхай, Китай",
+                    LastKnownAddress = "Наньцзінська вулиця, 88, Шанхай",
+                    CriminalProfession = "Кіберзлочинець",
+                    HairColor = "Чорне"
+                    },
+                new CrimeRecord {
+                    FirstName = "Марія",
+                    LastName = "Діаз",
+                    Nickname = "Тінь",
+                    Height = 165,
+                    EyeColor = "Карі",
+                    Nationality = "Мексиканка",
+                    BirthDate = new DateTime(1995, 9, 5),
+                    BirthPlace = "Мехіко, Мексика",
+                    LastKnownAddress = "Аvenida Insurgentes, 123, Мехіко",
+                    CriminalProfession = "Шпигунка",
+                    HairColor = "Чорне"
+                    },
+                new CrimeRecord {
+                   FirstName = "Джон",
+                   LastName = "Сміт",
+                   Nickname = "Привид",
+                   Height = 180,
+                   EyeColor = "Зелені",
+                   Nationality = "Американець",
+                   BirthDate = new DateTime(1983, 6, 22),
+                   BirthPlace = "Нью-Йорк, США",
+                   LastKnownAddress = "Бродвей, 42, Нью-Йорк",
+                   CriminalProfession = "Кілер",
+                   HairColor = "Русяве"
+                   },
+                new CrimeRecord {
+                   FirstName = "Олександр",
+                   LastName = "Ковальчук",
+                   Nickname = "Сокіл",
+                   Height = 180,
+                   EyeColor = "Сині",
+                   Nationality = "Українець",
+                   BirthDate = new DateTime(1990, 3, 14),
+                   BirthPlace = "Київ, Україна",
+                   LastKnownAddress = "Хрещатик, 12, Київ",
+                   CriminalProfession = "Фальшивомонетник",
+                   HairColor = "Світло-русяве"
+}
 
+                    
             };
 
             foreach (var criminal in criminals)
